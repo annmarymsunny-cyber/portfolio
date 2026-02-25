@@ -1,0 +1,28 @@
+.box {
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 250px;
+    width:250px;
+    border: radius 50%;
+    object-fit: cover;
+
+}
+.txt{
+    color: gray;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+button{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
